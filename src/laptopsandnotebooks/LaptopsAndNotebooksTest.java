@@ -98,13 +98,13 @@ public class LaptopsAndNotebooksTest extends Utility {
         //2.20 Fill the mandatory fields
         sendTextToElement(By.id("input-payment-firstname"), "Jigar");
         sendTextToElement(By.id("input-payment-lastname"), "Patel");
-        sendTextToElement(By.id("input-payment-email"), "soniyapatel67@gmail.com");
-        sendTextToElement(By.name("telephone"), "07854329219");
-        sendTextToElement(By.name("address_1"), "45,HalleY rd");
+        sendTextToElement(By.id("input-payment-email"), "jigasw4@gmail.com");
+        sendTextToElement(By.name("telephone"), "0789456123");
+        sendTextToElement(By.name("address_1"), "391,city road");
         sendTextToElement(By.name("city"), "London");
         sendTextToElement(By.name("postcode"), "E13 2GH");
         selectValueFromElement(By.id("input-payment-country"), "United Kingdom");
-        selectValueFromElement(By.id("input-payment-zone"), "Greater London");
+        selectValueFromElement(By.id("input-payment-zone"), "London");
         //2.21 Click on “Continue” Button
         clickOnElement(By.xpath("//input[@id='button-guest']"));
         // 2.22 Add Comments About your order into text area
